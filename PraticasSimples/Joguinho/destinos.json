@@ -1,0 +1,17 @@
+[
+    {
+        "categoria": "Atrações",
+        "nome": "Wat Phrathat Doi Suthep",
+        "descricao": "Templo Budista"
+    },
+    {
+        "categoria": "Atrações",
+        "nome": "Festival das lanternas",
+        "descricao": "Festival de Lanternas realizado tradicionalmento na Tailândia"
+    },
+    {
+        "categoria": "Transporte",
+        "nome": "Tuk Tuk",
+        "descricao": "Transporte Nacional da Tailândia"
+    }
+]

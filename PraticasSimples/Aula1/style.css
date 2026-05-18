@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(245, 239, 230);
+}
+
+header{
+    background-color: #214e2d;
+    padding: 20px;
+}
+
+header a{
+    padding: 30px;
+    color: #e0e9e0;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box-header{
+    display: flex;
+    background-color: #214e2d;
+    height: 30px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.box-header:hover{
+    background-color: #2d5e3a;
+    color: #e0e9e0;
+}
+
+main{
+    justify-items: center;
+}
+
+.nome{
+    font-family: 'Times New Roman', Times, serif;
+    color: #1D4D2A;
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+
+.descricao{
+    font-family: 'Times New Roman', Times, serif;
+    color: #1D4D2A;
+    font-size: 20px;
+    width: 1000px;
+    text-align: center;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.descricao-cardapio{
+    margin-top: auto;
+    color:#1D4D2A;
+    width: 1000px;
+    font-size: 20px;
+}
+
+.cardapio{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.item{
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    text-align: start;
+    padding-bottom: 15px;
+}
+
+.item img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.item h3{
+    margin-left: 10px;
+    color: #1D4D2A;
+}
+
+.item p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.nome-sobre{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1D4D2A;
+    font-size: 48px;
+    letter-spacing: 5px;
+    justify-content: center;
+}
+
+.sobre p{
+    color:#1D4D2A;
+    width: 1000px;
+    text-align:start;
+    font-size: 20px;
+}
