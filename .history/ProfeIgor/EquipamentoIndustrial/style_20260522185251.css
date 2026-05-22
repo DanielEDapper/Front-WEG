@@ -1,0 +1,16 @@
+:root{
+    /*Fundo principal: #0D111F
+Fundo dos cards: #1A2238
+Azul industrial: #1F4E79
+Azul claro de destaque: #3B82F6
+Amarelo botão CTA: #F5B700
+Texto principal: #FFFFFF
+Texto secundário: #B8C1D1
+Borda/sombra escura: #0A0F1C*/
+
+    --cor-fundo-principal: #0D111F;
+    --cor-fundo-secundario: #1A2238;
+    --cor-botao: #F5B700;
+    --cor-texto-principal: #FFFFFF;
+    
+}

@@ -1,0 +1,22 @@
+body{
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.produto{
+    background: #f6f7fc;
+    border: 1px solid #091792;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.comprar{
+    background-color: #5b9bfc;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+}

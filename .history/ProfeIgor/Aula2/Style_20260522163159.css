@@ -1,0 +1,42 @@
+:root{
+    --cor-primaria: #091792;
+    --cor-secundaria: #5b9bfc;
+
+    --fundo-principal: #f7f7f7;
+    --fundo-secundario: #f6f7fc;
+
+    --radius-pequeno: 5px;
+}
+
+body{
+    background: var(---principal);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.produto{
+    background: var(--fundo-secundario);
+    border: 1px solid var(--cor-primaria);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.comprar{
+    background-color: var(--cor-primaria);
+    color: #FFFFFF;
+    border-radius: var(--radius-pequeno);
+    text-decoration: none;
+    padding: 10px 20px;
+
+    font-weight: 600;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}

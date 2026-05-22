@@ -1,0 +1,37 @@
+:root{
+    --azul-primaria: #091792;
+    --azul-secundaria: #5b9bfc;
+
+    --fundo-
+}
+
+body{
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.produto{
+    background: #f6f7fc;
+    border: 1px solid var(--azul-primaria);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.comprar{
+    background-color: var(--azul-primaria);
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+
+    font-weight: 600;
+}
+
+.grid{
+    display: grid;
+
+}

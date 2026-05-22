@@ -1,5 +1,17 @@
-body{
-     
+*{
+    margin: auto;
+}
+
+.hero-index{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), 
+    url("plantacao-de-cafe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 header a{
@@ -60,7 +72,7 @@ main .titulo-principal{
     font-family: "Cormorant Garamond", serif;
     font-size: 82px;
     color: #FFFFFF;
-    padding: 50px 0px 0px 350px; 
+    padding: 150px 0px 0px 450px; 
     margin-bottom: 0px;
 }
 
@@ -68,7 +80,7 @@ main .titulo-secundario{
     font-family: "Cormorant Garamond", serif;
     font-size: 82px;
     color: #FFFFFF;
-    padding: 0px 0px 0px 950px; 
+    padding: 0px 0px 0px 1050px; 
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -79,7 +91,7 @@ main .descricao{
     color:#FFFFFF;
     width: 1000px;
     font-weight: 200;
-    padding: 50px 0px 0px 350px; 
+    padding: 50px 0px 0px 0px; 
     margin-top: 10px;
 }
 
@@ -106,4 +118,48 @@ main .descricao{
     transition: 0.5s;
     cursor: pointer;
     border: none;
+}
+
+
+/* CARDÁPIO -----------------------------------------*/
+
+.hero-cardapio{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.2),
+    rgba(0,0,0,0.7)), 
+    url("coffee\ nuts.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 85vh;
+}
+
+.hero-cardapio .titulo-principal{
+    display: flex;
+    padding: 150px 0px 0px 0px;
+    justify-content: center;
+}
+
+.hero-cardapio main .descricao{
+    text-align: center;
+    width: 800px;
+}
+
+.menu-cardapio{
+    background-image: linear-gradient(rgba(15, 10, 7, 1),
+    rgb(48, 22, 12));
+    height: 85vh;
+}
+
+.menu-cardapio .titulo-principal{
+    display: flex;
+    padding: 50px 0px 0px 10px;
+    justify-content: center;
+}
+
+.menu-vinhos{
+    background-image: linear-gradient(rgba(48, 22, 12),
+    rgb(99, 4, 4));
+    height: 85vh;
 }

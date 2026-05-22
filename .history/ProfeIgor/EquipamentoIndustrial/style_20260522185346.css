@@ -1,0 +1,10 @@
+:root{
+    --cor-fundo-principal: #0D111F;
+    --cor-fundo-secundario: #1A2238;
+    --cor-botao: #F5B700;
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #B8C1D1;
+
+    --radius-pequeno: 5px;
+    --radius-grande: 10px;
+}
