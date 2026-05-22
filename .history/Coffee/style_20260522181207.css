@@ -1,11 +1,13 @@
 *{
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .hero-index{
     background-image:
-    linear-gradient(rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)), 
+    linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)), 
     url("plantacao-de-cafe.jpg");
     background-size: cover;
     background-position: center;

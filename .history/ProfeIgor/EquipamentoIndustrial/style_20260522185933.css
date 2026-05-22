@@ -1,0 +1,38 @@
+:root{
+    --cor-fundo-principal: #0D111F;
+    --cor-fundo-secundario: #1A2238;
+    --cor-botao: #F5B700;
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #B8C1D1;
+
+    --radius-pequeno: 5px;
+    --radius-grande: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-color: var(--cor-fundo-principal);*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: var(--cor-botao);
+    text-align: center;
+}
+
+.produto{
+    background-color: var(--cor-fundo-secundario);
+    padding: 20px;
+}
+
+.produto h2{
+    color: var(--cor-texto-principal);
+}
+
+.produto p{
+    color: var(--cor-texto-secundario);
+}
