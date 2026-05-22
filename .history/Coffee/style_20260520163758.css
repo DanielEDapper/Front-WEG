@@ -1,0 +1,169 @@
+*{
+    margin: auto;
+}
+
+.hero-index{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)), 
+    url("plantacao-de-cafe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header a{
+    width: 170px;
+    height: 40px;
+}
+
+.menu-esquerdo{
+    display: flex;
+    gap: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px 50px 30px;
+}
+
+.menu-direito{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.esquerdo-botao button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: "Petemoss";
+    font-size: 32px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.esquerdo-botao button:hover{
+    cursor: pointer;
+}
+
+.direito-botao button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+.direito-botao button:hover{
+    text-decoration: none;
+    background-color: #613B19;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+}
+
+ /*MAINS*/
+main .titulo-principal{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 82px;
+    color: #FFFFFF;
+    padding: 150px 0px 0px 450px; 
+    margin-bottom: 0px;
+}
+
+main .titulo-secundario{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 82px;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 1050px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main .descricao{
+    font-family: "Roboto Flex", serif;
+    font-size: 24px;
+    color:#FFFFFF;
+    width: 1000px;
+    font-weight: 200;
+    padding: 50px 0px 0px 0px; 
+    margin-top: 10px;
+}
+
+.botao-compra button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #FFFFFF;
+    padding: 14px 14px;
+    border-radius: 5px;
+    font-weight: 200;
+    display: flex;
+    justify-self: center;
+    text-decoration: none;
+    margin-top: 150px;
+}
+
+.botao-compra{
+    text-decoration: none;
+}
+
+.botao-compra button:hover{
+    text-decoration: none;
+    background-color: #613B19;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* CARDÁPIO -----------------------------------------*/
+
+.hero-cardapio{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.2),
+    rgba(0,0,0,0.7)), 
+    url("coffee\ nuts.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 85vh;
+}
+
+.hero-cardapio .titulo-principal{
+    display: flex;
+    padding: 150px 0px 0px 0px;
+    justify-content: center;
+}
+
+.hero-cardapio main .descricao{
+    text-align: center;
+    width: 800px;
+}
+
+.menu-cardapio{
+    background-image: linear-gradient(rgba(15, 10, 7, 1),
+    rgb(48, 22, 12));
+    height: 85vh;
+}
+
+.menu-cardapio .titulo-principal{
+    display: flex;
+    padding: 50px 0px 0px 10px;
+    justify-content: center;
+}
+
+
+
+
+
+.menu-vinhos{
+    background-image: linear-gradient(rgba(48, 22, 12),
+    rgb(105, 1, 1));
+    height: 85vh;
+}
