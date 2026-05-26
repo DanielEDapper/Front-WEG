@@ -1,0 +1,27 @@
+body{
+    margin: 40px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    display: grid;
+
+    gap: 19px;
+
+    grid-template-columns: 275px 275px;
+
+    height: 710px;
+
+    place-content: center;
+
+    background: #f5f5f5;
+}
+
+.produto{
+    background: #dddddd;
+
+    padding: 20px;
+
+    border-radius: 5px;
+}

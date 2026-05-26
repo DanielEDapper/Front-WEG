@@ -1,0 +1,26 @@
+:root{
+    --cor-fundo-principal: #02040A;
+    --cor-fundo-secundario: #050816;
+
+    --cor-borda-principal: #1A1F2E;
+    --cor-
+}   
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+* i{
+    font-size: 36px;
+    color: ;
+}
+
+.container-central{
+    width: 80%;
+    border: 1px solid red;
+}
+
+.card-central{
+     border: 1px solid red;
+}

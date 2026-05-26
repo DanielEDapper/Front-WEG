@@ -1,0 +1,63 @@
+.grid{
+    display: grid;
+
+    gap: 20px;
+
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo{
+    grid-column: 1 / -1;
+
+    max-width: 100%;
+}
+
+.description{
+    grid-column: 1 / -1;
+
+    margin: 0px;
+
+    font-size: 21px;
+}
+
+.buy{
+    grid-column: 1 / -1;
+
+    background: #5a1fff;
+
+    color: #ffffff;
+
+    padding: 15px 20px;
+
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    text-align: center;
+
+    font-size: 21px;
+}
+
+body{
+    margin: 39px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    margin: 0px;
+
+    font-size: 50px;
+
+    line-height: 1;
+}
+
+.price{
+    background: #eeeeee;
+
+    padding: 5px 10px;
+
+    border-radius: 3px;
+
+    font-size: 21px;
+}

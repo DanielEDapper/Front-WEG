@@ -1,0 +1,57 @@
+:root{
+    --cor-fundo-principal: #02040A;
+    --cor-fundo-secundario: #050816;
+
+    --cor-borda-principal: #1A1F2E;
+    --cor-borda-secundaria: #00E5FF;
+    --cor-icone-principal: #FFC400;
+}   
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-central{
+    width: 80%;
+}
+
+.card-central{
+    display: flex;
+    align-items: center;
+
+    padding: 2rem;
+}
+.card-central-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.card-central a{
+    margin-left: auto;
+}
+
+.card-central-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 2rem;
+}
+.card-central-icone i{
+    font-size: 2rem;
+    color: var(--cor-icone-principal);
+}
+
+.card-central-conteudo a{
+    padding: 6px 32px;
+    background-color: var(--cor-icone-principal);
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+}
+
+.card{
+    border: 1px solid red;
+}

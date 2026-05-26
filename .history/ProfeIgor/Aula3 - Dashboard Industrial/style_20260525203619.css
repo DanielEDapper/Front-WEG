@@ -1,0 +1,27 @@
+:root{
+    --fundo-principal: #0a0a0b;
+    --fundo-card: #050816;
+
+    --ciano-neon: #00E5FF;
+    --ciano-hover: #00B8D4;
+
+    --verde-status: #39FF14;
+
+    --amarelo-industrial: #FFC400;
+    --amarelo-hover: #FFD740;
+
+    --texto-principal: #F5F5F5;
+    --texto-secundario: #7A8194;
+
+    --borda-card: #1A1F2E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: ;
+}

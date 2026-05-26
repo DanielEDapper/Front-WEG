@@ -1,0 +1,22 @@
+:root{
+    --cor-fundo-principal: 
+}   
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+* i{
+    font-size: 36px;
+    color: ;
+}
+
+.container-central{
+    width: 80%;
+    border: 1px solid red;
+}
+
+.card-central{
+     border: 1px solid red;
+}

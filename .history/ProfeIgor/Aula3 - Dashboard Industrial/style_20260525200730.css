@@ -1,0 +1,67 @@
+:root{
+    --cor-fundo-principal: #02040A;
+    --cor-fundo-secundario: #050816;
+
+    --cor-borda-principal: #1A1F2E;
+    --cor-icone-principal: #FFC400;
+}   
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+* i{
+    font-size: 36px;
+    color: var(--cor-icone-principal);
+}
+
+.container-central{
+    width: 80%;
+    border: 1px solid red;
+}
+
+.card-central{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 250px 250px;
+}
+
+.card-central-icone{
+    justify-self: start;
+}
+
+
+.card-central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem;
+
+    border: 1px solid #00E5FF;
+}
+
+E separar melhor o conteúdo:
+
+.card-central-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 2rem;
+}
+.card-central-icone i{
+    font-size: 2rem;
+    color: #FFB800;
+}
+
+Agora o conteúdo
+
+.card-central-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}

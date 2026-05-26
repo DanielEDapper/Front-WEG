@@ -1,0 +1,53 @@
+:root{
+    --cor-fundo-principal: #02040A;
+    --cor-fundo-secundario: #050816;
+
+    --cor-borda-principal: #1A1F2E;
+    --cor-borda-secundaria: #00E5FF;
+    --cor-icone-principal: #FFC400;
+}   
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-central{
+    width: 80%;
+    border: 1px solid red;
+}
+
+.card-central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 2rem;
+
+    border: 1px solid var(--cor-borda-secundaria);
+}
+
+.card-central-icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 2rem;
+}
+.card-central-icone i{
+    font-size: 2rem;
+    color: var(--cor-icone-principal);
+}
+
+
+.card-central-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+grid{
+    display: grid;
+}
