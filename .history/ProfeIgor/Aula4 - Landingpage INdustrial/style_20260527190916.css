@@ -1,0 +1,13 @@
+:root{
+    --cor-fundo-principal: #002147;
+    --cor-botao-alerta: 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}

@@ -1,0 +1,31 @@
+:root{
+    --cor-fundo-principal: #002147;
+    --cor-fundo-secundario: #f4f4f4;
+    --cor-botao-alerta: #ff8c00;
+    --branco: #ffffff;
+    --cor-tecnica: #333333;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.header-principal{
+    justify-items: center;
+}
+
+.menu-navegacao{
+    margin-top: 10px;
+}
+
+.link-menu{
+    padding: 2px 10px;
+    background-color: #f4f4f4;
+    
+}

@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    gap: 21px;
+    grid-template-columns: 2fr 1fr; /* [3] */
+    /* Define tamanhos fixos ou automáticos para as linhas [4] */
+    grid-template-rows: 295px auto; 
+    /* Define que qualquer nova linha criada terá 215px [4, 5] */
+    grid-auto-rows: 215px; 
+}
+
+body {
+    font-family: Arial;
+    margin: 39px;
+}

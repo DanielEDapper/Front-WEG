@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    gap: 21px;
+    grid-template-columns: 1fr 1fr;
+    /* Alinha itens no centro de seus espaços no grid [1, 2] */
+    place-items: center; 
+}
+
+body {
+    font-family: Arial;
+    margin: 39px;
+}

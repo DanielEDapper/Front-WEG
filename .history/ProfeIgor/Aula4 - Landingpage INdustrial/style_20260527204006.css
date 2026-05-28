@@ -1,0 +1,112 @@
+:root{
+    --cor-fundo-principal: #002147;
+    --cor-fundo-secundario: #f4f4f4;
+    --cor-botao-alerta: #ff8c00;
+    --branco: #ffffff;
+    --cor-tecnica-principal: #333333;
+    --cor-tecnica-secundaria: #b3b3b3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: var(--cor-fundo-secundario);
+}
+
+.header-principal{
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.header-principal h1{
+    font-size: 36px;
+}
+
+.menu-navegacao{
+    margin-top: 40px;
+}
+
+.link-menu{
+    padding: 2px 10px;
+    margin: 5px;
+    background-color: var(--branco);
+    text-decoration: none;
+    color: var(--cor-tecnica)
+}
+
+/*------------------------------------------------------------------------*/
+/*                                  SECTION                               */
+/*------------------------------------------------------------------------*/
+
+
+.hero{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 550px);
+    grid-template-rows: repeat(2, 350px);
+    max-width: 90%;
+    justify-self: center;
+}
+
+.hero-content{
+    background-color: var(--branco);
+    text-align: right;
+    justify-items: end;
+    padding: 40px 40px 0px 0px;
+}
+
+.hero-content h2{
+    font-size: 32px;
+    width: 340px;
+}
+
+.descricao-produto{
+    width: 340px;
+    margin: 40px 0px;
+}
+
+.btn-cta{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--cor-botao-alerta);
+    border-radius: 5px;
+    border: 2px solid var(--cor-botao-alerta);
+    font-weight: 600;
+    background-color: var(--cor-fundo-principal);
+}
+
+.midia-impacto{
+    background-color: red;
+}
+
+.midia-impacto img{
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.specs-header{
+    display: grid;
+}
+
+.specs-content{
+    font-size: 72px;
+    text-align: end;
+    align-self: center;
+    justify-self: center;
+    margin-right: 20px;
+    color: var(--cor-tecnica-secundaria);
+}
+
+.painel-diferenciais{
+    display: grid;
+}
+
+.icone-tecnico{
+    color: var(--cor-fundo-principal)
+}
