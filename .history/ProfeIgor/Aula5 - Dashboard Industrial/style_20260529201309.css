@@ -1,0 +1,148 @@
+:root{
+    --bg-dark: #192332;
+    --bg-main: #283C50;
+    --bg-panel: #32465A;
+
+    --warning: #F0C30F;
+    --danger: #BE3728;
+    --success: #2ECC71;
+
+    --log-bg: #D2E6F5;
+
+    --text: #FFFFFF;
+    --text-secondary: #99A3AB;
+
+    --accent-blue: #638CAB;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-dark);    
+}
+
+#wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90%;
+    width: 90%;
+    background-color: var(--bg-main);
+    border: 3px solid var(--bg-panel);
+    margin: 20px;
+    justify-self: center;
+}
+
+#header{
+    color: var(--text);
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+    font-weight: 400;
+}
+
+.titulo-sessao{
+    background-color: var(--bg-panel);
+    color: var(--text);
+    width: 90%;
+    justify-self: center;
+    border-left: 5px solid var(--text);
+}
+
+.titulo-sessao h3{
+    padding: 8px 0px 8px 10px;
+}
+
+.container-montagem{
+    display: flex;
+    width: 90%;
+    justify-self: center;
+    flex-basis: 400;
+    height: 100px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card{
+    background-color: var(--warning);
+}
+
+.card h3{
+    padding: 0px 0px 0px 20px;
+    
+}
+
+.card i{
+    display: flex;
+    justify-self: center;
+}
+
+.card:nth-child(1){
+    width: 25%;
+}
+
+.card:nth-child(2){
+    width: 50%;
+}
+
+.card:nth-child(2) i{
+    display: flex;
+    padding: 0px 20px 0px 0px;
+    justify-self: end;
+}
+
+.card:nth-child(3){
+    width: 25%;
+}
+
+.container-sensores{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-self: center;
+}
+
+.card-sensores{
+    background-color: var(--danger);
+    color: var(--text);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.card-sensores h3{
+    font-size: 18px;
+}
+
+.card-sensores i{
+    font-size: 24px;
+}
+
+.container-logs{
+    background-color: var(--log-bg);
+    width: 90%;
+    justify-self: center;
+    padding: 20px 0px;
+    border: 1px solid var(--accent-blue);
+}
+
+.container-logs p {
+    margin: 0px 0px 0px 40px;
+    color: var(--text-secondary);
+}
+
+.container-logs hr{
+    width: 95%;
+    border: none;
+    height: 2px;
+    background-color: var(--accent-blue);
+}
+
+#footer{
+    justify-self: center;
+    color: var(--success)
+}

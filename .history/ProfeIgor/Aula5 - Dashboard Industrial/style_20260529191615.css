@@ -1,0 +1,31 @@
+:root{
+    --bg-dark: #192332;
+    --bg-main: #283C50;
+    --bg-panel: #32465A;
+
+    --warning: #F0C30F;
+    --danger: #BE3728;
+    --success: #2ECC71;
+
+    --log-bg: #D2E6F5;
+
+    --text: #FFFFFF;
+    --text-secondary: #99A3AB;
+
+    --accent-blue: #638CAB;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-dark);    
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90;
+    background-color: var(--accent-blue);
+}
+
+.
