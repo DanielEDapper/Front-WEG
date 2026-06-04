@@ -1,0 +1,138 @@
+:root {
+  /* Cores Principais de Destaque */
+  --primary-orange: #f27405;    /* Cor do botão CTA "Faça uma Cotação" e ícones */
+  --primary-orange-hover: #d96604; /* Versão levemente mais escura para estados de hover */
+
+  /* Cores de Fundo (Dark Mode) */
+  --bg-dark: #0d1117;           /* Fundo principal da página */
+  --bg-dark-blur: #0d1117BF;
+  --bg-card: #161b22;           /* Fundo dos cards (Nossos Processos, Projetos) */
+  --bg-footer: #090c10;         /* Fundo do rodapé, levemente mais escuro */
+  
+  /* Cores de Texto e Tipografia */
+  --text-white: #ffffff;        /* Títulos e textos em destaque */
+  --text-gray: #a0a0a0;         /* Texto de corpo e descrições */
+  --text-muted: #6e7681;        /* Links secundários e informações menores */
+
+  /* Cores de Bordas e Detalhes */
+  --border-color: #30363d;      /* Bordas sutis de cards e divisores */
+  --accent-red: #e83929;        /* Cor de destaque para certificações (ex: ISO 9001) */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-dark);
+}
+
+header{
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+
+}
+
+.logo span{
+    color: var(--accent-red);
+}
+
+nav a{
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+nav button{
+    margin: 0px;
+    background-color: var(--primary-orange);
+    width: 1fr;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: var(--text-white);
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+.hero{
+    height: 800px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.20),
+        rgba(0, 0, 0, 0.20)
+    ),url(ChatGPT\ Image\ 3\ de\ jun.\ de\ 2026\,\ 18_32_40.png);
+    align-content: end;
+}
+
+.hero div{
+    margin: 0px 0px 100px 300px;
+    background-color: var(--bg-dark-blur);
+    padding: 30px 0px;
+    width: 700px;
+    border-left: 3px solid var(--primary-orange);
+}
+
+.hero h1{
+    padding: 0px 0px 0px 40px;
+    color: var(--text-white);
+}
+
+.hero p{
+    padding: 0px 0px 0px 40px;
+    width: 80%;
+    color: var(--text-gray);
+}
+
+/* SECTION 2 */
+
+.wrapper{
+    height: 800px;
+    color: var(--text-white);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0px 300px 0px 300px;
+}
+
+.processos{
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.container-cards-processos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: var(--bg-card);
+    width: 230px;
+    justify-items: center;
+}
+
+.card i{
+    color: var(--primary-orange);
+    font-size: 32px;
+    justify-content: center;
+}
+
+.card p{
+    width: 210px;
+    text-align: center;
+}
+
+.projetos{
+    background-color: red;
+}
+
+.certificacoes{
+    background-color: red;
+}

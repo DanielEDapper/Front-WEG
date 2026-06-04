@@ -1,0 +1,30 @@
+:root {
+  /* Cores Principais de Destaque */
+  --primary-orange: #f27405;    /* Cor do botão CTA "Faça uma Cotação" e ícones */
+  --primary-orange-hover: #d96604; /* Versão levemente mais escura para estados de hover */
+
+  /* Cores de Fundo (Dark Mode) */
+  --bg-dark: #0d1117;           /* Fundo principal da página */
+  --bg-card: #161b22;           /* Fundo dos cards (Nossos Processos, Projetos) */
+  --bg-footer: #090c10;         /* Fundo do rodapé, levemente mais escuro */
+  
+  /* Cores de Texto e Tipografia */
+  --text-white: #ffffff;        /* Títulos e textos em destaque */
+  --text-gray: #a0a0a0;         /* Texto de corpo e descrições */
+  --text-muted: #6e7681;        /* Links secundários e informações menores */
+
+  /* Cores de Bordas e Detalhes */
+  --border-color: #30363d;      /* Bordas sutis de cards e divisores */
+  --accent-red: #e83929;        /* Cor de destaque para certificações (ex: ISO 9001) */
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margim
+    background-color: var(--bg-dark);
+}

@@ -1,0 +1,298 @@
+:root {
+  /* Cores Principais de Destaque */
+  --primary-orange: #f27405;    /* Cor do botão CTA "Faça uma Cotação" e ícones */
+  --primary-orange-hover: #d96604; /* Versão levemente mais escura para estados de hover */
+  --card: #1E232B;
+
+  /* Cores de Fundo (Dark Mode) */
+  --bg-dark: #0d1117;           /* Fundo principal da página */
+  --bg-dark-blur: #0d1117BF;
+  --bg-section: #14191E;
+  --bg-card: #161b22;           /* Fundo dos cards (Nossos Processos, Projetos) */
+  --bg-footer: #090c10;         /* Fundo do rodapé, levemente mais escuro */
+  
+  /* Cores de Texto e Tipografia */
+  --text-white: #ffffff;        /* Títulos e textos em destaque */
+  --text-gray: #a0a0a0;         /* Texto de corpo e descrições */
+  --text-muted: #6e7681;        /* Links secundários e informações menores */
+
+  /* Cores de Bordas e Detalhes */
+  --border-color: #30363d;      /* Bordas sutis de cards e divisores */
+  --accent-red: #e83929;        /* Cor de destaque para certificações (ex: ISO 9001) */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-dark);
+}
+
+header{
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+
+}
+
+.logo span{
+    color: var(--accent-red);
+}
+
+nav a{
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav button{
+    margin: 0px;
+    background-color: var(--primary-orange);
+    width: 1fr;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: var(--text-white);
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav button:hover{
+    background-color: var(--primary-orange-hover);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.hero{
+    height: 800px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.20),
+        rgba(0, 0, 0, 0.20)
+    ),url(ChatGPT\ Image\ 3\ de\ jun.\ de\ 2026\,\ 18_32_40.png);
+    align-content: end;
+}
+
+.hero div{
+    margin: 0px 0px 100px 300px;
+    background-color: var(--bg-dark-blur);
+    padding: 30px 0px;
+    width: 700px;
+    border-left: 3px solid var(--primary-orange);
+}
+
+.hero h1{
+    padding: 0px 0px 0px 40px;
+    color: var(--text-white);
+}
+
+.hero p{
+    padding: 0px 0px 0px 40px;
+    width: 80%;
+    color: var(--text-gray);
+}
+
+/* SECTION 2 */
+
+.wrapper{
+    height: 600px;
+    color: var(--text-white);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0px 300px 0px 300px;
+}
+
+.processos{
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    background-color: var(--bg-section);
+    border: 3px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.processos h2{
+    padding-left: 20px;
+}
+
+.processos p{
+    width: 650px;
+    padding: 5px 0px 5px 20px;
+    color: var(--text-gray);
+
+}
+
+.container-cards-processos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 0;
+    background-color: var(--card);
+    width: 240px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid var(--primary-orange);
+    border-radius: 5px;
+}
+
+.card:hover{
+    background-color: var(--bg-dark);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card i{
+    color: var(--primary-orange);
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.card p{
+    padding: 0;
+    width: 210px;
+    text-align: center;
+    color: var(--text-gray);
+}
+
+.projetos{
+    background-color: var(--bg-section);
+    border: 3px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.projetos h2{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.projetos hr{
+    width: 90%;
+    height: 2px;
+    border: none;
+    background-color: var(--text-muted);
+}
+
+.projetos p{
+    padding-left: 20px;
+    color: var(--text-gray)
+}
+
+.certificacoes{
+    background-color: var(--bg-section);
+    border: 3px solid var(--border-color);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.certificacoes h2{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.certificacoes hr{
+    width: 90%;
+    height: 2px;
+    border: none;
+    background-color: var(--text-muted);
+}
+
+.certificacoes-btn{
+    width: 90%;
+    justify-self: center;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.certificacoes-btn button{
+    height: 40px;
+    margin-top: 10px;   
+    color: var(--accent-red);
+    font-weight: 800;
+    background-color: var(--card);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.certificacoes-btn button:hover{
+    background-color: var(--bg-dark);
+    transition: 0.5s;
+    cursor: pointer;
+    color: var(--primary-orange-hover);
+}
+
+.aside{
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 250px 250px;
+}
+
+.contact h4{
+    color: var(--text-white);
+}
+
+.links h4{
+    color: var(--text-white);
+}
+
+.social h4{
+    color: var(--text-white);
+}
+
+footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.contact-section{
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact-section p{
+    padding-left: 10px;
+    color: var(--text-gray);
+}
+
+.contact-section i{
+    color: var(--primary-orange);
+}
+
+.links p{
+    color: var(--text-gray);
+}
+
+.links p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: ;
+}
+
+.social i{
+    color: var(--text-gray);
+}
+
+hr{
+    width: 70%;
+    height: 2px;
+    border: none;
+    background-color: var(--text-muted);
+}
