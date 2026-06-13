@@ -1,0 +1,32 @@
+:root
+{
+    --cor-azul-acinzentado: #2f3d4d;
+    --cor-laranja-claro: #f3e9d4;
+    --cor-ciano-claro: #f2f5f5;
+
+    --cor-branca: #fff;
+    --cor-cinza-claro: #bebbb6;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--cor-azul-acinzentado);
+    justify-items: center;
+    text-align: center;
+}
+
+.first-part{
+    justify-items: center;
+}
+
+.first-part 
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+}

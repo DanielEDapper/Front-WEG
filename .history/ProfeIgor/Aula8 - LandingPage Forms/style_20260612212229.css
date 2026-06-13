@@ -1,0 +1,175 @@
+:root
+{
+    --cor-azul-acinzentado: #2f3d4d;
+    --cor-laranja-claro: #e47e2b;
+    --cor-bege-claro: #e6d0af;
+
+    --cor-branca: #fff;
+    --cor-cinza-claro: #bebbb6;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--cor-azul-acinzentado);
+    justify-items: center;
+    text-align: center;
+}
+
+.first-part{
+    justify-items: center;
+    padding: 0px 0px 5px 0px;
+}
+
+.first-part h2{
+    margin: 0;
+    padding: 20px 0px 5px 0px;
+    color: var(--cor-branca);
+}
+
+.first-part p{
+    margin: 0;
+    color: var(--cor-cinza-claro);
+    font-weight: 600;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px 20px 0px;
+}
+
+.second-part a{
+    color: var(--cor-branca);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.second-part button{
+    padding: 7px 20px;
+    color: var(--cor-branca);
+    font-weight: 600;
+    background-color: var(--cor-laranja-claro);
+    border: none;
+    border-radius: 5px;
+}
+
+/* MAIN */
+
+/* SECTION HERO */
+
+.hero{
+    height: 500px;
+    background-image: url(imagem-trabalhadores.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    align-content: center;
+}
+
+.card-hero{
+    background-color: #00000098;
+    width: 80%;
+    margin: 0px 0px 0px 20px;
+}
+
+.card-hero h1{
+    color: var(--cor-branca);
+    padding: 20px 0px 0px 20px;
+    margin: 0;
+    width: 80%;
+}
+
+.card-hero p{
+    color: var(--cor-cinza-claro);
+    margin: 0;
+    padding: 20px 0px 0px 20px;
+    width: 70%;
+}
+
+.card-hero button{
+    color: var(--cor-branca);
+    font-weight: 600;
+    background-color: var(--cor-laranja-claro);
+    border: none;
+    padding: 7px 20px;
+    margin: 20px 0px 25px 20px;
+}
+
+/* SECTION REQUEST */
+
+.request-section{
+    background-color: var(--cor-branca);
+    height: 600px;
+}
+
+/* .request-card{
+    background-color: var(--cor-azul-acinzentado);
+    width: 98%;
+    justify-self: center;
+
+} */
+
+.contacts{
+    background-color: var(--cor-azul-acinzentado);
+    width: 98%;
+    justify-self: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contacts h2{
+    color: var(--cor-branca);
+    padding: 20px 0px 0px 20px;
+}
+
+.contacts hr{
+    border: none;
+    height: 1.5px;
+    width: 95%;
+    background-color: var(--cor-cinza-claro);
+}
+
+.contacts .card h4{
+    color: var(--cor-cinza-claro);
+    font-weight: 600;
+    padding: 0px 0px 0px 20px;
+    margin: 20px 0px 5px 0px;
+}
+
+.contacts .card p{
+    color: var(--cor-branca);
+    padding: 0px 0px 0px 20px;
+    margin: 5px 0px 0px 0px;
+}
+
+.contacts .card:last-child p:last-child{
+    padding: 0px 0px 30px 20px;
+}
+
+.forms{
+    background-color: var(--cor-bege-claro);
+    width: 98%;
+    justify-self: center;
+}
+
+label{
+    display: block;
+    color: var(--cor-azul-acinzentado);
+    font-weight: 600;
+    margin: 5px 0px 0px 0px;
+}
+
+form{
+    padding: 0px 0px 0px 20px;
+}
+
+input{
+    width: 90%;
+    height: 2rem;
+    margin: 0px 0px 15px 0px;
+}

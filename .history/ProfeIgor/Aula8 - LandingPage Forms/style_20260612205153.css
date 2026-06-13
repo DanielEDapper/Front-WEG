@@ -1,0 +1,109 @@
+:root
+{
+    --cor-azul-acinzentado: #2f3d4d;
+    --cor-laranja-claro: #e47e2b;
+    --cor-ciano-claro: #f2f5f5;
+
+    --cor-branca: #fff;
+    --cor-cinza-claro: #bebbb6;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--cor-azul-acinzentado);
+    justify-items: center;
+    text-align: center;
+}
+
+.first-part{
+    justify-items: center;
+    padding: 0px 0px 5px 0px;
+}
+
+.first-part h2{
+    margin: 0;
+    padding: 20px 0px 5px 0px;
+    color: var(--cor-branca);
+}
+
+.first-part p{
+    margin: 0;
+    color: var(--cor-cinza-claro);
+    font-weight: 600;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px 20px 0px;
+}
+
+.second-part a{
+    color: var(--cor-branca);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.second-part button{
+    padding: 7px 20px;
+    color: var(--cor-branca);
+    font-weight: 600;
+    background-color: var(--cor-laranja-claro);
+    border: none;
+    border-radius: 5px;
+}
+
+/* MAIN */
+
+/* SECTION HERO */
+
+.hero{
+    height: 500px;
+    background-image: url(imagem-trabalhadores.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    align-content: center;
+}
+
+.card-hero{
+    background-color: #00000098;
+    width: 80%;
+    margin: 0px 0px 0px 20px;
+}
+
+.card-hero h1{
+    color: var(--cor-branca);
+    padding: 20px 0px 0px 20px;
+    margin: 0;
+    width: 80%;
+}
+
+.card-hero p{
+    color: var(--cor-cinza-claro);
+    margin: 0;
+    padding: 20px 0px 0px 20px;
+    width: 70%;
+}
+
+.card-hero button{
+    color: var(--cor-branca);
+    font-weight: 600;
+    background-color: var(--cor-laranja-claro);
+    border: none;
+    padding: 7px 20px;
+    margin: 20px 0px 25px 20px;
+}
+
+/* SECTION REQUEST */
+
+.request-section{
+    background-color: #000;
+    height: 600px;
+}
