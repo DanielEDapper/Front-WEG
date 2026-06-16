@@ -1,0 +1,85 @@
+:root{
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #333333;
+
+    --cor-fundo-principal: #6F63D9;
+    --cor-fundo-secundario: #EF634D;
+    
+
+    --bg-botao-principal: #F49E44;
+
+    --bg-icon: rgba(255, 255, 255, 0.178);
+    --primary-icon: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+
+header {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--cor-fundo-principal);
+}
+
+header h2{
+    font-size: 3rem;
+    color: var(--cor-texto-principal);
+}
+
+.iconsDesktop {
+    display: none;
+    gap: 5px;
+}
+
+.linksNavDesktop {
+    display: none;
+}
+
+.icon {
+    background-color:var(--bg-icon);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-icon);
+}
+
+.hero{
+    background-color: var(--cor-fundo-principal);
+}
+
+.hero h3{
+    color: var(--cor-texto-principal);
+    width: 201px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero h1{
+    color: var(--cor-texto-principal);
+    width: 343px;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.contact-btn{
+    height: 48px;
+    width: 170px;
+    background-color: var(--bg-botao-principal);
+    color: var(--cor-texto-secundario);
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 18px;
+}
+

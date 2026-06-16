@@ -1,0 +1,36 @@
+:root{
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #333333;
+
+    --cor-fundo-principal: #6F63D9;
+    --cor-fundo-secundario: #EF634D;
+    
+
+    --bg-botao-principal: #F49E44;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconsDesktop {
+    display: none;
+}
+
+.hero{
+    background-color: var(--cor-fundo-principal);
+}
+
+.hero h3{
+    color: var(--cor-texto-principal);
+    
+}

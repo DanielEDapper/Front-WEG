@@ -1,0 +1,51 @@
+:root{
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #333333;
+
+    --cor-fundo-principal: #6F63D9;
+    --cor-fundo-secundario: #EF634D;
+    
+
+    --bg-botao-principal: #F49E44;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconsDesktop {
+    display: none;
+}
+
+.linksNavDesktop {
+    display: none;
+}
+
+.icon {
+    background-color: rgba(rgba(255, 255, 255, 0.349), rgb(255, 255, 255), rgb(255, 255, 255), alpha)
+}
+
+.hero{
+    background-color: var(--cor-fundo-principal);
+}
+
+.hero h3{
+    color: var(--cor-texto-principal);
+    width: 12rem;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero h1{
+    color: var(--cor-texto-principal);
+    width: ;
+}

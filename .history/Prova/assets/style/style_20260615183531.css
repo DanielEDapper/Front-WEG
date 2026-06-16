@@ -1,0 +1,28 @@
+:root{
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #333333;
+
+    --cor-fundo-principal: #6F63D9;
+    --cor-fundo-secundario: #EF634D;
+    
+
+    --bg-botao-principal: #F49E44;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav {
+    display: flex;
+    gap: 5px;
+}
+

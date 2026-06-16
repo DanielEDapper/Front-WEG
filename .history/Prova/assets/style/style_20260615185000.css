@@ -1,0 +1,61 @@
+:root{
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #333333;
+
+    --cor-fundo-principal: #6F63D9;
+    --cor-fundo-secundario: #EF634D;
+    
+
+    --bg-botao-principal: #F49E44;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+
+header {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--cor-fundo-principal);
+}
+
+.iconsDesktop {
+    display: none;
+}
+
+.linksNavDesktop {
+    display: none;
+}
+
+.icon {
+    background-color:rgba(255, 255, 255, 0.178);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+.hero{
+    background-color: var(--cor-fundo-principal);
+}
+
+.hero h3{
+    color: var(--cor-texto-principal);
+    width: 201px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero h1{
+    color: var(--cor-texto-principal);
+    width: 343px;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.hero nutton

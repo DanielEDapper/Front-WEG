@@ -1,0 +1,141 @@
+:root{
+    --cor-texto-principal: #FFFFFF;
+    --cor-texto-secundario: #333333;
+
+    --cor-fundo-principal: #6F63D9;
+    --cor-fundo-secundario: #EF634D;
+    
+
+    --bg-botao-principal: #F49E44;
+
+    --bg-icon: rgba(255, 255, 255, 0.178);
+    --primary-icon: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+
+header {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-fundo-principal);
+}
+
+header h2{
+    font-size: 3rem;
+    color: var(--cor-texto-principal);
+    margin-left: 14px;
+}
+
+.iconsHeaderDesktop {
+    display: none;
+    font-size: 2rem;
+    margin-right: 8.8vw;
+}
+
+.iconHamburguerMobile {
+    margin-right: 15px;
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    color: var(--cor-texto-principal);
+    text-decoration: none;
+}
+
+.icon {
+    background-color:var(--bg-icon);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: var(--primary-icon);
+}
+
+/* SECTION HERO */
+
+.hero{
+    background-color: var(--cor-fundo-principal);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.hero h1{
+    color: var(--cor-texto-principal);
+    width: 343px;
+    font-weight: 700;
+    font-size: 56px;
+    margin: 40px 0px 0px 0px; 
+}
+
+.hero img {
+    width: 345.78px;
+    height: 325.94px;
+    margin-top: 44px;
+}
+
+.contact-btn{
+    height: 48px;
+    width: 170px;
+    background-color: var(--bg-botao-principal);
+    color: var(--cor-texto-secundario);
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 50px 0px 0px 14px
+}
+
+.see-project-btn{
+    height: 48px;
+    width: 170px;
+    background-color: transparent;
+    color: var(--cor-texto-principal);
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 50px 0px 0px px
+}
+
+
+/* SECTION FEATURES */
+
+/* MEDIA QUERIES - RESPONSIVIDADE */
+
+@media (min-width: 700px) {
+    .iconsHeaderDesktop {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .iconHamburguerMobile {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        gap: 55px;
+    }
+}
+
+@media (max-width: 1320px) {
+    nav {
+        display: none;
+    }
+}
