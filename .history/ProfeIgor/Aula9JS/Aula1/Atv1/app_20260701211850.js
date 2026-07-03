@@ -1,0 +1,3 @@
+// alert("Sistema de Supervisão Ativo e Conectado!");
+
+const
