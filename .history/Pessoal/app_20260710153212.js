@@ -1,0 +1,1 @@
+const minhaPromisse = new Promise(resolve, reject) 

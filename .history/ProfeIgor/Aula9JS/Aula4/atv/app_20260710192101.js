@@ -1,0 +1,1 @@
+funtion adicionar(addEventListener, b)

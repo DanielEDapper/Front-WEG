@@ -80,10 +80,6 @@ const nomeTecnico = 'Valvula de \'Seguranca\'';
 
 /* Exercício 21: Formatação de Cadastro de Operador (Padrão ES5) */
 const operadorNome = "joao silva";
-let novoNomeOperador = operadorNome[0].toUpperCase() + operadorNome.slice(1,5) +  operadorNome[5].toUpperCase() + operadorNome.slice(6);
+let novoNomeOperador = operadorNome[0].toUpperCase() +operadorNome.+  operadorNome[5].toUpperCase();
 
-// console.log(novoNomeOperador);
-
-/* Exercício 22: Formatação de Cadastro de Operador (Padrão ES6 Template String) */
-novoNomeOperador = `${operadorNome.charAt(0).toUpperCase()}${operadorNome.substring(1, 5)}${operadorNome.charAt(5).toUpperCase()}${operadorNome.substring(6)}`;
 console.log(novoNomeOperador);
