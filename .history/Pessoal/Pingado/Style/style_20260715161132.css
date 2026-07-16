@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.60),
+        rgba(0,0,0,0.60)
+    ),
+    url("../Assets/CoffeePlantationImage.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    header{
+        
+    }
+}

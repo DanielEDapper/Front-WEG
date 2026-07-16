@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.60),
+        rgba(0,0,0,0.60)
+    ),
+    url("../Assets/CoffeePlantationImage.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 25px 5%;
+    }
+
+    .hero__main{
+        .main__card{
+            justify-self: center;
+            width: 50%;
+            height: 60%;
+        }
+
+        .main__title{
+            display: flex;
+            justify-content: center;
+            color: var(--cor-branco);
+        }
+
+        .main__paragraph{
+            color: var(--cor-branco);
+        }
+    }
+}

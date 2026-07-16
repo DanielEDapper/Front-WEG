@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Petemoss&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+:root{
+    --cor-primaria: #613B19;
+    --cor-secundaria: #8a5a2b;
+
+    --texto-branco: #ffffff;
+    --texto-claro: rgba(255,255,255,0.85);
+
+    --radius: 6px;
+
+    --fonte-titulo: "Cormorant Garamond", serif;
+    --fonte-texto: "Roboto Flex", sans-serif;
+    --fonte-logo: "Petemoss", cursive;
+
+    --container-width: 1200px;
+
+    --transition: 0.3s ease;
+}
+

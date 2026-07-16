@@ -1,0 +1,216 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+/* ===========================
+   LANDING
+=========================== */
+
+.landing{
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,.60),
+            rgba(0,0,0,.60)
+        ),
+        url("../Assets/CoffeePlantationImage.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+.hero__header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:25px 5%;
+
+}
+
+.hero__logo{
+
+    font-family:var(--fonte-logo);
+    font-size:var(--titulo-3);
+
+    color:var(--cor-branco);
+    text-decoration:none;
+
+}
+
+.hero__content{
+
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    gap:20px;
+
+    width:50%;
+    margin-left:8%;
+
+}
+
+.hero__title{
+
+    color:var(--cor-branco);
+
+}
+
+.hero__subtitle{
+
+    color:var(--cor-branco);
+    text-align:right;
+
+}
+
+.hero__description{
+
+    color:var(--cor-branco);
+
+}
+
+.hero__content .btn{
+
+    width:fit-content;
+
+}
+
+/* ===========================
+   PROCESS
+=========================== */
+
+.process{
+
+    min-height:300vh;
+
+}
+
+.process__track{
+
+    display:flex;
+
+    width:300vw;
+    height:100vh;
+
+    position:sticky;
+    top:0;
+
+    transition:transform .1s linear;
+}
+
+.process__step{
+
+    width:100vw;
+    height:100vh;
+
+    padding:0 10%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    position:relative;
+
+}
+
+.process__step--reverse{
+
+    flex-direction:row-reverse;
+
+}
+
+.process__number{
+
+    position:absolute;
+
+    top:70px;
+    left:8%;
+
+    font-size:8rem;
+    font-weight:700;
+
+    color:rgba(255,255,255,.08);
+
+}
+
+.process__content{
+
+    width:45%;
+
+    z-index:2;
+
+}
+
+.process__tag{
+
+    color:#C79A63;
+
+    text-transform:uppercase;
+    letter-spacing:3px;
+
+    margin-bottom:12px;
+
+}
+
+.process__title{
+
+    color:var(--cor-branco);
+
+    margin-bottom:24px;
+
+}
+
+.process__description{
+
+    color:#d5d5d5;
+
+    line-height:1.8;
+
+}
+
+.process__illustration{
+
+    flex:1;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.process__illustration img{
+
+    width:100%;
+    max-width:650px;
+    height:auto;
+
+}
