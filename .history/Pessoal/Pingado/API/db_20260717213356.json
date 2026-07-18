@@ -1,0 +1,45 @@
+[
+    {
+        "mes": 1,
+        "nomeMes": "Janeiro",
+        "cafes": [
+            {
+                "nome": "Aurora",
+                "origem": "Chapada Diamantina - Bahia",
+                "notas": [
+                    "Pêssego",
+                    "Maracujá",
+                    "Mel"
+                ],
+                "imagem": ""
+            },
+            {
+                "nome": "Brisa",
+                "origem": "Capaó - Espirito Santo",
+                "notas": [
+                    "",
+                    "",
+                    ""
+                ],
+                "imagem": ""
+            },
+            {
+                "nome": "Man",
+                "origem": "",
+                "notas": [
+                    "",
+                    "",
+                    ""
+                ],
+                "imagem": ""
+            }
+        ]
+    },
+    {
+        "mes": 1,
+        "nomeMes": "Janeiro",
+        "cafes": [
+
+        ]
+    }
+]

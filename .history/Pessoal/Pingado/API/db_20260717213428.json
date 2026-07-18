@@ -1,0 +1,45 @@
+[
+    {
+        "mes": 1,
+        "nomeMes": "Janeiro",
+        "cafes": [
+            {
+                "nome": "Aurora",
+                "origem": "Chapada Diamantina - Bahia",
+                "notas": [
+                    "Pêssego",
+                    "Maracujá",
+                    "Mel"
+                ],
+                "imagem": ""
+            },
+            {
+                "nome": "Brisa",
+                "origem": "Capaó - Espirito Santo",
+                "notas": [
+                    "Jasmim",
+                    "Chá Branco",
+                    "Mel"
+                ],
+                "imagem": ""
+            },
+            {
+                "nome": "Reserva do Vale",
+                "origem": "Matiqueira de Minas",
+                "notas": [
+                    "",
+                    "",
+                    ""
+                ],
+                "imagem": ""
+            }
+        ]
+    },
+    {
+        "mes": 1,
+        "nomeMes": "Janeiro",
+        "cafes": [
+
+        ]
+    }
+]

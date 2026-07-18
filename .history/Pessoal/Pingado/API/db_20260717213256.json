@@ -1,0 +1,45 @@
+[
+    {
+        "mes": 1,
+        "nomeMes": "Janeiro",
+        "cafes": [
+            {
+                "nome": "Aurora",
+                "origem": "",
+                "notas": [
+                    "",
+                    "",
+                    ""
+                ],
+                "imagem": ""
+            },
+            {
+                "nome": "",
+                "origem": "",
+                "notas": [
+                    "",
+                    "",
+                    ""
+                ],
+                "imagem": ""
+            },
+            {
+                "nome": "",
+                "origem": "",
+                "notas": [
+                    "",
+                    "",
+                    ""
+                ],
+                "imagem": ""
+            }
+        ]
+    },
+    {
+        "mes": 1,
+        "nomeMes": "Janeiro",
+        "cafes": [
+
+        ]
+    }
+]
