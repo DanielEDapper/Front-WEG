@@ -1,7 +1,10 @@
-const process = document.querySelector(".process");
 
-const track = document.querySelector(".process__track");
+//REALIZA PROCESSO DE SCROLL PARA A HORIZONTAL NA SESSÃO DE PROCESSOS DA MARCA.
 
+const process = document.querySelector(".process");             
+                                                                    
+const track = document.querySelector(".process__track");           
+                                                                
 const maxTranslate = track.scrollWidth - window.innerWidth;
 
 window.addEventListener("scroll", () => {
@@ -21,39 +24,40 @@ window.addEventListener("scroll", () => {
     `translateX(-${translate}px)`;
 });
 
+// REALIZA PROCESSO DE BUSCA DOS CAFÉS SELECIONADOS DE ACORDO COM O MÊS DA MÁQUINA DO CLIENTE.
+//                                                                  -> BASE DE DADOS: db.json
+
 async function carregarCafeDoMes() {
     try {
 
-        // Busca o JSON
-        const resposta = await fetch("../API/db.json");
+        const resposta = await fetch("./API/db.json");
+
+        if (!resposta.ok) {
+            throw new Error("Não foi possível encontrar o arquivo db.json");
+        }
+
         const dados = await resposta.json();
 
-        // Descobre o mês atual
         const mesAtual = new Date().getMonth() + 1;
 
-        // Procura o objeto referente ao mês
         const mes = dados.find(item => item.mes === mesAtual);
 
         if (!mes) {
-            console.log("Nenhum café encontrado para este mês.");
+            console.log("Nenhum café cadastrado para este mês.");
             return;
         }
 
         const container = document.getElementById("coffeeContainer");
 
-        // Limpa os cards (caso a função seja chamada novamente)
-        container.innerHTML = "";
+        let html = "";
 
-        // Cria um card para cada café
         mes.cafes.forEach(cafe => {
 
-            container.innerHTML += `
+            html += `
                 <article class="coffee-card">
 
                     <div class="coffee-card__image">
-                        <img
-                            src="${cafe.imagem}"
-                            alt="${cafe.nome}">
+                        <img src="${cafe.imagem}" alt="${cafe.nome}">
                     </div>
 
                     <div class="coffee-card__content">
@@ -81,9 +85,107 @@ async function carregarCafeDoMes() {
 
         });
 
+        container.innerHTML = html;
+
     } catch (erro) {
-        console.error("Erro ao carregar os cafés:", erro);
+        console.error(erro);
     }
 }
+
+/* ==========================================
+   ORIGENS
+========================================== */
+
+const origins = document.querySelectorAll(".origin");
+const regions = document.querySelectorAll(".region");
+
+const regionMap = {
+
+    chapada: document.getElementById("chapada"),
+
+    matas: document.getElementById("matas"),
+
+    sul: document.getElementById("sul"),
+
+    mantiqueira: document.getElementById("mantiqueira"),
+
+    cerrado: document.getElementById("cerrado"),
+
+    caparao: document.getElementById("caparao"),
+
+    mogiana: document.getElementById("mogiana")
+
+};
+
+/* ==========================================
+   LIMPA REGIÕES
+========================================== */
+
+function clearCurrentRegion(){
+
+    regions.forEach(region=>{
+
+        region.classList.remove("active");
+
+    });
+
+}
+
+/* ==========================================
+   OBSERVER
+========================================== */
+
+const observer = new IntersectionObserver((entries)=>{
+
+    entries.forEach(entry=>{
+
+        if(!entry.isIntersecting) return;
+
+        const article = entry.target;
+
+        const regionName = article.dataset.region;
+
+        /* ------------------------------
+           TEXTO
+        ------------------------------ */
+
+        origins.forEach(origin=>{
+
+            origin.classList.remove("active");
+
+        });
+
+        article.classList.add("active");
+
+        /* ------------------------------
+           MAPA
+        ------------------------------ */
+
+        clearCurrentRegion();
+
+        const currentRegion = regionMap[regionName];
+
+        if(currentRegion){
+
+            currentRegion.classList.add("active");
+            currentRegion.classList.add("visited");
+
+        }
+
+    });
+
+},{
+    threshold:.55
+});
+
+/* ==========================================
+   OBSERVA TODOS
+========================================== */
+
+origins.forEach(origin=>{
+
+    observer.observe(origin);
+
+});
 
 carregarCafeDoMes();

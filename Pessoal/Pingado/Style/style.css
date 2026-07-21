@@ -166,14 +166,10 @@ PROCESS
 .month-coffee{
 
     min-height:100vh;
-
     padding:120px 8%;
-
     display:flex;
     flex-direction:column;
-
     gap:60px;
-
 }
 
 /* ========================================
@@ -181,52 +177,33 @@ PROCESS
 ======================================== */
 
 .month-coffee__header{
-
     display:flex;
     flex-direction:column;
     align-items:center;
-
     text-align:center;
-
     gap:20px;
-
     max-width:700px;
-
     margin:0 auto;
-
 }
 
 .month-coffee__tag{
-
     color:#C79A63;
-
     font-size:.85rem;
-
     text-transform:uppercase;
-
     letter-spacing:4px;
-
 }
 
 .month-coffee__header__title{
-
     margin:0;
-
     color:var(--cor-branco);
     width: 100%;
-
 }
 
 .month-coffee__header__subtitle{
-
     margin:0;
-
     color:rgba(255,255,255,.75);
-
     max-width:600px;
-
     line-height:1.8;
-
 }
 
 /* ========================================
@@ -234,19 +211,12 @@ PROCESS
 ======================================== */
 
 .month-coffee__divisor{
-
     width: 125px;;
-
     height:1.5px;
-
     border:none;
-
     background:#C79A63;
-
     margin:0 auto;
-
     opacity:.9;
-
 }
 
 /* ========================================
@@ -254,17 +224,11 @@ PROCESS
 ======================================== */
 
 .month-coffee__main{
-
     display:flex;
-
     justify-content:center;
-
     align-items:stretch;
-
     gap:40px;
-
     flex-wrap:wrap;
-
 }
 
 /* ========================================
@@ -272,29 +236,19 @@ PROCESS
 ======================================== */
 
 .coffee-card{
-
     width:350px;
-
     background:#F8F4EE;
-
     border-radius:24px;
-
     overflow:hidden;
-
     transition:.35s ease;
-
     box-shadow:
         0 20px 50px rgba(0,0,0,.18);
-
 }
 
 .coffee-card:hover{
-
     transform:translateY(-10px);
-
     box-shadow:
         0 30px 70px rgba(0,0,0,.25);
-
 }
 
 /* ========================================
@@ -302,37 +256,23 @@ PROCESS
 ======================================== */
 
 .coffee-card__image{
-
     height:320px;
-
     overflow:hidden;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
 }
 
 .coffee-card__image img{
-
     width:100%;
-
     height:100%;
-
     object-fit:cover;
-
     transform:scale(1.15);
-
     transition:.4s ease;
-
 }
 
 .coffee-card:hover .coffee-card__image img{
-
     transform:scale(1.20);
-
 }
 
 /* ========================================
@@ -340,59 +280,37 @@ PROCESS
 ======================================== */
 
 .coffee-card__content{
-
     padding:30px;
-
     display:flex;
-
     flex-direction:column;
-
     gap:18px;
-
 }
 
 .coffee-card__origin{
-
     color:#A06D3D;
-
     font-size:.85rem;
-
     text-transform:uppercase;
-
     letter-spacing:2px;
-
 }
 
 .coffee-card__title{
-
     margin:0;
-
     font-family:var(--fonte-titulo);
-
     font-size:2rem;
-
     color:#3C2A20;
-
 }
 
 .coffee-card__notes{
-
     margin:0;
-
     color:#5F5146;
-
     line-height:1.7;
-
 }
 
 /* Faz o botão ficar sempre no final */
 
 .coffee-card .btn{
-
     margin-top:auto;
-
     width:100%;
-
 }
 
 /* ========================================
@@ -400,37 +318,22 @@ PROCESS
 ======================================== */
 
 .month-coffee__footer{
-
     display:flex;
-
     flex-direction:column;
-
     align-items:center;
-
     justify-content:center;
-
     gap:24px;
-
     text-align:center;
-
 }
 
 .month-coffee__footer p{
-
     margin:0;
-
     max-width:650px;
-
     color:rgba(255,255,255,.75);
-
     line-height:1.8;
-
 }
-
 .month-coffee__footer .btn{
-
     width:fit-content;
-
 }
 
 /* ========================================
@@ -438,30 +341,17 @@ PROCESS
 ======================================== */
 
 .signature{
-
     width:100%;
-    min-height:100vh;
-
-    padding:120px 8%;
-
+    overflow:hidden;
+    position:relative;
+    padding:180px 0;
     background:
-        linear-gradient(
-            rgba(35,24,18,.82),
-            rgba(35,24,18,.82)
-        ),
-        url("../Assets/Image/andre-taissin-6s1dy5J-FNw-unsplash.jpg");
-
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-
-}
-
-.signature__container{
-
-    max-width:1400px;
-    margin:0 auto;
-
+    linear-gradient(
+        180deg,
+        #2B1E18 0%,
+        #36261F 55%,
+        #433129 100%
+    );
 }
 
 /* ========================================
@@ -469,59 +359,37 @@ PROCESS
 ======================================== */
 
 .signature__hero{
-
+    width:min(900px,90%);
+    margin:0 auto 180px;
     display:flex;
     flex-direction:column;
     align-items:center;
-
     text-align:center;
-
-    gap:25px;
-
-    margin-bottom:140px;
-
+    gap:26px;
 }
 
 .signature__tag{
-
     color:#C79A63;
-
+    letter-spacing:6px;
     text-transform:uppercase;
-
-    letter-spacing:5px;
-
-    font-size:.9rem;
-
+    font-size:.85rem;
 }
 
 .signature__title{
-
-    color:var(--cor-branco);
-
+    color:white;
     margin:0;
-
 }
 
 .signature__subtitle{
-
-    color:var(--cor-branco);
-
-    max-width:900px;
-
-    margin:0;
-
+    color:white;
+    max-width:760px;
+    line-height:1.35;
 }
 
 .signature__description{
-
-    max-width:700px;
-
-    color:rgba(255,255,255,.75);
-
-    line-height:1.9;
-
-    margin:0;
-
+    color:rgba(255,255,255,.72);
+    max-width:650px;
+    line-height:2;
 }
 
 /* ========================================
@@ -529,12 +397,135 @@ PROCESS
 ======================================== */
 
 .signature__benefits{
-
     display:flex;
     flex-direction:column;
+    gap:180px;
+}
 
-    gap:140px;
+/* ========================================
+   ITEM
+======================================== */
 
+.benefit{
+    width:100%;
+}
+.benefit__wrapper{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.benefit--reverse .benefit__wrapper{
+    flex-direction:row-reverse;
+}
+
+/* ========================================
+   CONTENT
+======================================== */
+
+.benefit__content{
+    max-width:520px;
+    padding-left:8vw;
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+.benefit--reverse .benefit__content{
+    justify-self:end;
+    text-align:right;
+    align-items:flex-end;
+    padding-left:0;
+    padding-right:8vw;
+}
+.benefit__content img{
+    width:70px;
+    margin-bottom:8px;
+}
+.benefit__title{
+    color:white;
+    margin:0;
+}
+.benefit__description{
+    color:rgba(255,255,255,.78);
+    line-height:1.9;
+}
+
+/* ========================================
+   PAINEL
+======================================== */
+
+.benefit__card{
+    justify-self:end;
+    width:min(900px,58vw);
+    height:460px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+    background:
+    linear-gradient(
+        180deg,
+        #4B352C,
+        #3B2922
+    );
+    border:1px solid rgba(255,255,255,.06);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.05),
+        0 30px 80px rgba(0,0,0,.28);
+    border-radius:260px 0 0 260px;
+    transition:
+        transform .45s,
+        box-shadow .45s;
+}
+.benefit__card:hover{
+    transform:translateX(-12px);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.08),
+        0 45px 90px rgba(0,0,0,.35);
+}
+
+/* ========================================
+   CARD ESQUERDO
+======================================== */
+
+.benefit--reverse .benefit__card{
+    justify-self:start;
+    border-radius:0 260px 260px 0;
+}
+.benefit--reverse .benefit__card:hover{
+    transform:translateX(12px);
+}
+
+/* ========================================
+   CARD TEXT
+======================================== */
+
+.benefit__number{
+    font-family:var(--fonte-titulo);
+    font-size:7rem;
+    font-weight:300;
+    line-height:1;
+    color:#C79A63;
+}
+.benefit__label{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    font-family:var(--fonte-titulo);
+    font-size:2.2rem;
+    color:white;
+    text-align:center;
+    font-weight:300;
+    line-height:1.2;
+}
+.benefit__label span{
+    font-family:var(--fonte-texto);
+    font-size:.85rem;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    color:rgba(255,255,255,.60);
 }
 
 /* ========================================
@@ -542,36 +533,122 @@ PROCESS
 ======================================== */
 
 .signature__footer{
+    width:min(850px,90%);
+    margin:220px auto 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:35px;
+}
+.signature__footer h3{
+    color:var(--cor-branco);
+    margin:0;
+}
+.signature__footer p{
+    max-width:650px;
+    margin:0;
+    color:rgba(255,255,255,.75);
+    line-height:1.9;
+}
+.signature__footer .btn-secondary{
+    margin-top:10px;
+}
 
-    margin-top:160px;
+
+/* ========================================
+   TRANSIÇÕES
+======================================== */
+.benefit__content,
+.benefit__card{
+    transition:
+        transform .45s ease,
+        opacity .45s ease;
+}
+.benefit:hover .benefit__content{
+    transform:translateY(-4px);
+}
+.benefit:hover .benefit__card{
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.08),
+        0 45px 90px rgba(0,0,0,.35);
+}
+
+/* ========================================
+ORIGINS
+======================================== */
+
+.origins{
+
+    width:100%;
+    min-height:100vh;
+    padding:140px 8%;
+
+    background:#F6F1EA;
+
+}
+
+.origins__container{
+
+    max-width:1500px;
+    margin:0 auto;
+
+}
+
+/* ========================================
+HEADER
+======================================== */
+
+.origins__header{
 
     display:flex;
     flex-direction:column;
 
     align-items:center;
 
-    gap:35px;
-
     text-align:center;
+
+    gap:24px;
+
+    margin-bottom:120px;
 
 }
 
-.signature__footer p{
+.origins__tag{
+
+    color:#B88746;
+
+    text-transform:uppercase;
+
+    letter-spacing:5px;
+
+    font-size:.85rem;
+
+}
+
+.origins__header__title{
+
+    color:#2F241C;
+
+    margin:0;
+
+}
+
+.origins__header__subtitle{
 
     max-width:700px;
 
-    color:rgba(255,255,255,.75);
+    color:#73675D;
 
-    line-height:1.8;
+    line-height:1.9;
 
 }
 
-
 /* ========================================
-   ITEM
+CONTENT
 ======================================== */
 
-.benefit{
+.origins__content{
 
     display:flex;
 
@@ -583,107 +660,251 @@ PROCESS
 
 }
 
-.benefit--right{
-
-    flex-direction:row-reverse;
-
-}
-
-.benefit__content{
-
-    width:50%;
-
-    display:flex;
-    flex-direction:column;
-
-    gap:22px;
-
-}
-
-.benefit__content img{
-
-    width:80px;
-
-}
-
-.benefit__title{
-
-    margin:0;
-
-    color:white;
-
-    font-size: var(--titulo-3);
-}
-
-.benefit__description{
-
-    margin:0;
-
-    color:rgba(255,255,255,.75);
-
-    line-height:1.8;
-}
-
 /* ========================================
-   CARD
+TEXT
 ======================================== */
 
-.benefit__card{
+.origins__info{
 
-    width:320px;
-    height:320px;
-
-    border-radius:28px;
-
-    background:rgba(255,255,255,.06);
-
-    backdrop-filter:blur(18px);
-
-    border:1px solid rgba(255,255,255,.08);
+    width:38%;
 
     display:flex;
+
     flex-direction:column;
 
-    justify-content:center;
-    align-items:center;
+    align-items:flex-start;
 
-    gap:20px;
-
-    transition:.4s;
+    gap:28px;
 
 }
 
-.benefit__card:hover{
+.origins__counter{
 
-    transform:translateY(-8px);
+    font-size:.9rem;
 
-    background:rgba(255,255,255,.08);
+    letter-spacing:4px;
 
-}
-
-.benefit__number{
-
-    font-size:5rem;
-
-    font-family:var(--fonte-titulo);
-
-    color:#C79A63;
-
-    line-height:1;
+    color:#B88746;
 
 }
 
-.benefit__label{
+.origins__title{
 
-    text-align:center;
+    color:#2F241C;
 
-    color:white;
+    margin:0;
 
-    letter-spacing:3px;
+}
+
+.origins__state{
+
+    color:#7E7268;
+
+    font-size:1rem;
+
+    letter-spacing:2px;
 
     text-transform:uppercase;
 
-    line-height:1.6;
+}
+
+.origins__divider{
+
+    width:120px;
+
+    height:2px;
+
+    border:none;
+
+    background:#B88746;
 
 }
 
+.origins__description{
+
+    color:#5F5146;
+
+    line-height:2;
+
+}
+
+/* ========================================
+CARDS
+======================================== */
+
+.origins__cards{
+
+    width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    margin-top:10px;
+
+}
+
+.origin-card{
+
+    width:100%;
+
+    padding:22px 26px;
+
+    background:#FFFFFF;
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:
+        0 12px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.origin-card:hover{
+
+    transform:translateX(10px);
+
+    box-shadow:
+        0 18px 45px rgba(0,0,0,.12);
+
+}
+
+.origin-card__title{
+
+    color:#8B7A6B;
+
+    font-size:.9rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+.origin-card__value{
+
+    color:#2F241C;
+
+    font-weight:600;
+
+    text-align:right;
+
+}
+
+/* ========================================
+IMAGEM
+======================================== */
+
+.origins__image{
+
+    width:62%;
+
+    height:780px;
+
+    overflow:hidden;
+
+    border-radius:32px;
+
+    position:relative;
+
+    box-shadow:
+        0 35px 80px rgba(0,0,0,.18);
+
+}
+
+.origins__image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:1s ease;
+
+}
+
+.origins__image:hover img{
+
+    transform:scale(1.05);
+
+}
+
+/* ========================================
+RESPONSIVO
+======================================== */
+
+@media(max-width:1100px){
+
+    .origins__content{
+
+        flex-direction:column-reverse;
+
+        gap:60px;
+
+    }
+
+    .origins__info{
+
+        width:100%;
+
+    }
+
+    .origins__image{
+
+        width:100%;
+
+        height:500px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .origins{
+
+        padding:100px 7%;
+
+    }
+
+    .origins__header{
+
+        margin-bottom:80px;
+
+    }
+
+    .origins__image{
+
+        height:380px;
+
+        border-radius:24px;
+
+    }
+
+    .origin-card{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:10px;
+
+    }
+
+    .origin-card__value{
+
+        text-align:left;
+
+    }
+
+}
