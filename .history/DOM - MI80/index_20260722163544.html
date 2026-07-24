@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BioRhyme&amp;family=Space+Mono&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>DOM</title>
+</head>
+<body>
+  <div class="app">
+    <div class="todo-list">
+      <h1 class="title">
+        ToDoList
+      </h1>
+  
+      <form class="form" action="">
+        <input class="form-input" type="text">
+        <button class="form-button"> Nova Compra </button>
+      </form>
+
+      <ul class="list">
+      
+      </ul>
+    </div>
+</body>
+</html>
+
+<!--
+O DOM nada mais é do que a representação desse nosso arquivo HTML em formato de nós
+em que cada nó é um objeto e cada um desses onjetos representa uma tag ou texto do nosso html
+
+A partir do momento em que o navegador interpreta o nomsso arquivo html, ele vai criar essa representação em formato de objeto. E como que fica essa estrutura? Além dessa representação do nosso arquivo em formato de oobjeto, o dom tbm possui um objeto chamado window, e esse objeto representa a minha janela.
+
+Logo abaixo da WINDOW, nos temos o DOCUMENT. O DOCUMENT é om objeto queaponta para o documento atual (ou seja esse documeto atual o qal estamos trabalhando).
+
+Logo abaixo do DOCUMENT, teremos a nossa estruturo do html, estão teremos o ?
+  <html>, o <head>, o <title>, o <body>, o <h1>, e o <p> e todos os outros objetos como a <li> por exemplo.
+
+    DUAS COISAs IMPORTANTISSIMAS PARA FICARMOS ATENTOS: É a hierarquia, ou seja, o <h1> e o <p> são filhos de <body> e <body> é filho do <html> então essa hierarquia de pais e filhos que nós chamamos de: parent e children, dentro da estrutura do DOM.
+
+  Isso é muito importante entender quando comecamrmos a manupular os elementos.
+
+  Outra coisa importante epe o formato da árvore que o DOM acaba criando. Ele começa no WINDOW. É uma arvore, se considerarmos o WINDOW a raiz, ela vai abrindo , então podemos visualizar uma arvore de ponta-cabeça, e isso é proposital pois essa arvore é uma estrutura de dados;
+
+  Como precisamos percorrer essa estrutura, a estruturra de dados em formato de arvore possivilita que consigamos encontrar os elementos de uma forma muitooooo mais eficiente. Muitas vezes as pessoas falam "Arvore do DOM" quando se referem ao DOM.
+  
+  Selectionando ELEMENTOS:
+
+  Utilizamos o método querySelector para percorrer a arvore do DOM e encontrar o elemento que queremos utilizar JAVASCRIPT. Porém 
+  
+  -->

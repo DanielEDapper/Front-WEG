@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras - Atividade Prática DOM</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <header class="header">
+            <h1>🛒 Lista de Compras Simplificada</h1>
+            <p>Atividade Prática: Manipulação Básica do DOM e Eventos</p>
+        </header>
+ 
+        <form id="form-produto">
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="input-nome" 
+                    placeholder="Nome do produto (ex: Leite)" 
+                    required
+                >
+                <input 
+                    type="number" 
+                    id="input-preco" 
+                    step="0.01" 
+                    placeholder="Preço (R$)" 
+                    required
+                >
+            </div>
+            <button type="submit" id="btn-adicionar">Adicionar à Lista</button>
+        </form>
+
+        
+        <ul id="lista-produtos">
+            
+        </ul>
+
+        
+        <footer class="rodape-total">
+            <span>Total:</span>
+            <strong id="valor-total">R$ 0,00</strong>
+        </footer>
+    </main>
+
+</body>
+</html>
