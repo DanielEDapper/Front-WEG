@@ -1,0 +1,6 @@
+const APIKEY = //API KEY: 9bfc94f07adf1576638ea4934a72a9f3
+
+async function searchWeather(city)
+{
+    const URL = `https://api.openweathermap.org/data/2.5/weather?q${city}&units=metric&appid=${APIKEI}&lang=pt_br`;
+}

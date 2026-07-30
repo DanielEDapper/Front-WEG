@@ -1,0 +1,112 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, p, form, label, input, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --verde: #50C878;
+    --fonte-principal: "Poppins", sans-serif;
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.banner {
+    background: var(--preto);
+    color: var(--branco);
+    text-align: center;
+    padding: 1em;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+}
+
+
+.principal {
+    width: 90vw;
+    max-width: 700px;
+    margin: 3em auto;
+}
+
+.principal__subtitulo {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--preto);
+    margin: 1.5em 0 1em 0;
+}
+
+.formulario__campo {
+    margin: 0.8em 0;
+    flex: 1;
+}
+
+.formulario__dupla {
+    display: flex;
+    gap: 1em;
+}
+
+.campo__etiqueta {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--preto);
+    margin-bottom: 0.3em;
+    margin-left: 0.5em;
+}
+
+.campo__escrita {
+    border: 1px solid var(--preto);
+    border-radius: 24px;
+    padding: 0.8em 1em;
+    width: 100%;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    outline: none;
+}
+
+.formulario__botao {
+    background: var(--verde);
+    padding: 0.8em 3em;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+    color: var(--branco);
+    cursor: pointer;
+    margin-top: 1.5em;
+   
+}
+
+.formulario__botao:hover {
+    opacity: 0.9;
+}
+
+#erro{
+    
+}

@@ -1,0 +1,335 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image:url("../Assets/sky-bg.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    overflow:hidden;
+    position:relative;
+}
+
+/* Escurece o fundo */
+
+body::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:rgba(8,15,30,.45);
+
+    backdrop-filter:blur(3px);
+
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.weather-card{
+
+    position:relative;
+
+    width:430px;
+
+    padding:35px;
+
+    border-radius:28px;
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.35);
+
+    color:#fff;
+
+    animation:fadeUp .8s ease;
+
+}
+
+/* ===========================
+   TÍTULO
+=========================== */
+
+.weather-card h1{
+
+    text-align:center;
+
+    font-size:2rem;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+/* ===========================
+   PESQUISA
+=========================== */
+
+.search{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:35px;
+
+}
+
+.search input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    padding:16px 22px;
+
+    border-radius:50px;
+
+    background:rgba(255,255,255,.15);
+
+    color:white;
+
+    font-size:15px;
+
+}
+
+.search input::placeholder{
+
+    color:#d8d8d8;
+
+}
+
+.search button{
+
+    width:58px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#4F8EF7;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.search button:hover{
+
+    background:#2f73e6;
+
+    transform:scale(1.08);
+
+}
+
+/* ===========================
+   CLIMA
+=========================== */
+
+.weather{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.weather img{
+
+    width:120px;
+
+    margin-bottom:10px;
+
+}
+
+.weather h2{
+
+    font-size:4rem;
+
+    font-weight:600;
+
+    line-height:1;
+
+}
+
+.weather h3{
+
+    margin-top:10px;
+
+    font-size:1.6rem;
+
+    font-weight:500;
+
+}
+
+.weather p{
+
+    margin-top:8px;
+
+    color:#d8d8d8;
+
+    font-size:1rem;
+
+}
+
+/* ===========================
+   DETALHES
+=========================== */
+
+.details{
+
+    margin-top:35px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+
+}
+
+.details div{
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:18px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.details div:hover{
+
+    background:rgba(255,255,255,.15);
+
+    transform:translateY(-5px);
+
+}
+
+.details span{
+
+    font-size:1.7rem;
+
+}
+
+.details p{
+
+    margin-top:10px;
+
+    font-size:.9rem;
+
+    color:#d7d7d7;
+
+}
+
+.details strong{
+
+    display:block;
+
+    margin-top:5px;
+
+    font-size:1.1rem;
+
+}
+
+/* ===========================
+   ANIMAÇÃO
+=========================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+@media(max-width:500px){
+
+    .weather-card{
+
+        width:90%;
+
+        padding:25px;
+
+    }
+
+    .weather h2{
+
+        font-size:3.3rem;
+
+    }
+
+    .weather img{
+
+        width:100px;
+
+    }
+
+    .details{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
