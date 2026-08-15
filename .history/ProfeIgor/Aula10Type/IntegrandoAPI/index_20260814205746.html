@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WEG Academy | Programas Técnicos</title>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="index.html" aria-label="WEG Academy - Página inicial">
+        <img class="brand__logo" src="./assets/logo.png" alt="WEG" />
+        <span class="brand__text">Academy</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#programas">Programas</a>
+        <a href="#filtros">Categorias</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__card">
+        <div class="hero__slashes" aria-hidden="true">
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="hero__content">
+          <p class="eyebrow">Capacitação técnica corporativa</p>
+          <h1>Programas WEG para indústria, energia e automação.</h1>
+          <p>
+            Explore cursos, treinamentos, workshops e eventos técnicos voltados ao desenvolvimento profissional.
+          </p>
+          <a class="btn btn-primary" href="#programas">Ver programas</a>
+        </div>
+
+        <div class="hero__panel">
+          <p class="panel__label">Próximo destaque</p>
+          <strong>Eficiência Energética em Motores IE4</strong>
+          <span>Treinamento técnico presencial</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="filters-section" id="filtros">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Catálogo</p>
+          <h2>Encontre o programa ideal</h2>
+          <p>Use os filtros e a busca para localizar capacitações por título, descrição ou local.</p>
+        </div>
+
+        <div class="filters">
+          <label class="search-box" for="campoBusca">
+            <span>Buscar</span>
+            <input
+              type="search"
+              id="campoBusca"
+              placeholder="Busque por título, descrição ou local"
+            />
+          </label>
+
+          <div class="filter-buttons" aria-label="Filtros por categoria">
+            <button class="filtro ativo" type="button" data-categoria="">Todos</button>
+            <button class="filtro" type="button" data-categoria="Cursos">Cursos</button>
+            <button class="filtro" type="button" data-categoria="Treinamentos">Treinamentos</button>
+            <button class="filtro" type="button" data-categoria="Workshops">Workshops</button>
+            <button class="filtro" type="button" data-categoria="Feiras">Feiras</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="programs-section" id="programas">
+      <div class="container">
+        <p id="mensagem" class="mensagem">Carregando programas...</p>
+
+        <div id="listaProgramas" class="program-grid">
+          <!-- Card mockado para referência visual. O JavaScript deverá substituir este conteúdo pelos dados da API. -->
+          <article class="program-card program-card--featured">
+            <div class="program-card__image-wrap">
+              <img
+                class="program-card__image"
+                src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200"
+                alt="Imagem do programa Eficiência Energética em Motores IE4"
+              />
+            </div>
+
+            <div class="program-card__body">
+              <div class="program-card__meta">
+                <span class="badge">Treinamentos</span>
+                <span class="badge badge--primary">Destaque</span>
+              </div>
+
+              <h3>Eficiência Energética em Motores IE4</h3>
+              <p>
+                Treinamento para engenheiros e técnicos sobre dimensionamento de motores de alta eficiência e retorno de investimento.
+              </p>
+
+              <div class="program-card__details">
+                <span>20/03/2026, 09:00</span>
+                <span>Auditório WEG Motores — Jaraguá do Sul, SC</span>
+              </div>
+
+              <div class="program-card__footer">
+                <strong>R$ 690,00</strong>
+                <span class="vagas vagas--baixas">6 vagas disponíveis</span>
+              </div>
+
+              <a class="btn btn-outline" href="detalhe.html?id=ev_1e6d6ac9">Ver detalhes</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <strong>WEG Academy</strong>
+      <span>Interface educacional para prática de consumo de API com JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="./script/index.js"></script>
+</body>
+</html>

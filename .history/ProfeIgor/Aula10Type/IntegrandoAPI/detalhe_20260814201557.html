@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhe do Programa | WEG Academy</title>
+  <link rel="stylesheet" href="./" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="index.html" aria-label="WEG Academy - Página inicial">
+        <img class="brand__logo" src="logo-weg.png" alt="WEG" />
+        <span class="brand__text">Academy</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="index.html">Voltar para programas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="detail-hero">
+      <div class="container">
+        <a class="back-link" href="index.html">← Voltar para a listagem</a>
+        <p id="mensagemDetalhe" class="mensagem">Carregando detalhes do programa...</p>
+
+        <article id="detalhePrograma" class="detail-card">
+          <!-- Conteúdo mockado para referência visual. O JavaScript deverá substituir pelos dados reais da API. -->
+          <div class="detail-card__image-wrap">
+            <img
+              class="detail-card__image"
+              src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200"
+              alt="Imagem do programa Eficiência Energética em Motores IE4"
+            />
+          </div>
+
+          <div class="detail-card__content">
+            <div class="program-card__meta">
+              <span class="badge">Treinamentos</span>
+              <span class="badge badge--primary">Destaque</span>
+            </div>
+
+            <h1>Eficiência Energética em Motores IE4</h1>
+            <p>
+              Treinamento de 8h para engenheiros e técnicos sobre dimensionamento de motores de alta eficiência e retorno de investimento (ROI).
+            </p>
+
+            <div class="detail-list">
+              <div>
+                <span>Investimento</span>
+                <strong>R$ 690,00</strong>
+              </div>
+              <div>
+                <span>Data</span>
+                <strong>20/03/2026, 09:00</strong>
+              </div>
+              <div>
+                <span>Local</span>
+                <strong>Auditório WEG Motores — Jaraguá do Sul, SC</strong>
+              </div>
+              <div>
+                <span>Vagas disponíveis</span>
+                <strong class="vagas vagas--baixas">6 vagas disponíveis</strong>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <strong>WEG Academy</strong>
+      <span>Interface educacional para prática de consumo de API com JavaScript</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
