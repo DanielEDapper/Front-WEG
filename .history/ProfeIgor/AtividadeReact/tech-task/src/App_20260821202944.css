@@ -1,0 +1,23 @@
+/* Container principal - Alinhamento central e espaçamento */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Card visual para cada módulo prático */
+.app-card-modulo {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 84, 166, 0.08);
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-card-modulo:hover {
+  box-shadow: 0 6px 16px rgba(0, 84, 166, 0.12);
+}

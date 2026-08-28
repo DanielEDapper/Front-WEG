@@ -1,0 +1,2 @@
+import "./FormularioEquipamento.css";
+

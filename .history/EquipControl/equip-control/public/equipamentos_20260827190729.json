@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "codigo": "MTR-001",
+    "nome": "Motor Elétrico",
+    "setor": "Montagem",
+    "status": "OPERANDO"
+  },
+  {
+    "id": 2,
+    "codigo": "BMB-002",
+    "nome": "Bomba Centrífuga",
+    "setor": "Hidráulico",
+    "status": "ATENCAO"
+  },
+  {
+    "id": 3,
+    "codigo": "MTR-003",
+    "nome": "Motor de Indução",
+    "setor": "Usinagem",
+    "status": "PARADO"
+  },
+  {
+    "id": 4,
+    "codigo": "VEN-004",
+    "nome": "Ventilador Industrial",
+    "setor": "Pintura",
+    "status": "OPERANDO"
+  },
+  {
+    "id": 5,
+    "codigo": "COM-005",
+    "nome": "Compressor de Ar",
+    "setor": "Manutenção",
+    "status": "ATENCAO"
+  }
+]

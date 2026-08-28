@@ -1,0 +1,37 @@
+/* Formulário de adição de tarefas */
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.form-input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+  border-color: #0054a6;
+  box-shadow: 0 0 0 3px rgba(0, 84, 166, 0.15);
+}
+
+.form-btn {
+  padding: 12px 20px;
+  background-color: #0054a6;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.form-btn:hover {
+  background-color: #003d7a;
+}

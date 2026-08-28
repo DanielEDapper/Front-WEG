@@ -1,0 +1,40 @@
+.app {
+  min-height: 100vh;
+}
+
+.app-container {
+  width: min(1200px, 92%);
+  margin: 0 auto;
+  padding: 30px 0 50px;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section {
+  background: #ffffff;
+  border: 1px solid #e1e7ed;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(31, 41, 55, 0.06);
+}
+
+.section-title {
+  margin-bottom: 18px;
+  font-size: 20px;
+  color: #172033;
+}
+
+@media (max-width: 700px) {
+  .app-container {
+    width: 94%;
+    padding-top: 20px;
+  }
+
+  .section {
+    padding: 18px;
+  }
+}

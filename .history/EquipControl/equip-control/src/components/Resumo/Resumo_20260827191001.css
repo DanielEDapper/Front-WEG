@@ -1,0 +1,52 @@
+.resumo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.resumo-card {
+  padding: 20px;
+
+  background: #f8fafc;
+  border: 1px solid #e4e9ef;
+  border-radius: 12px;
+}
+
+.resumo-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+}
+
+.resumo-valor {
+  margin-top: 8px;
+
+  font-size: 30px;
+  font-weight: 700;
+  color: #172033;
+}
+
+.resumo-card.operando {
+  border-left: 4px solid #22c55e;
+}
+
+.resumo-card.atencao {
+  border-left: 4px solid #f59e0b;
+}
+
+.resumo-card.parado {
+  border-left: 4px solid #6b7280;
+}
+
+@media (max-width: 800px) {
+  .resumo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .resumo {
+    grid-template-columns: 1fr;
+  }
+}
