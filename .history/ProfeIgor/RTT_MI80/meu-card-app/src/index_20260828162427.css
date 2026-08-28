@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/*
+CLASSES TAILWIND
+
+CATEGORIA           CLASSE TAILWIND           DESCRIÇÃO TÉCNICA
+
+Layout              flex                      Aplica display flex
+Layout              min-h-screen              Define a altura minima em 100vh
+Alinhamento         items-center              Centraliza os itens filhos no eixo  transversal(vertical no flex-row)
+Alinhamento         justify-center e between  Centraliza no wixo principal e istribui os itens nos 2 extremos 
+Dimensoes           max-w-sm                  Limita a largura máxima em 24rem (384px)
+Espaçamento         p-6, p-4 e pt-4           Padding uniforme (1.5rem/1rem)
+
+*/

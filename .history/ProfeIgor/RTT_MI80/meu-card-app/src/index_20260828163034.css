@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/*
+CLASSES TAILWIND
+
+CATEGORIA           CLASSE TAILWIND                                DESCRIÇÃO TÉCNICA
+                     
+Layout              flex                                           Aplica display flex
+Layout              min-h-screen                                   Define a altura minima em 100vh
+                     
+                     
+Alinhamento         items-center                                   Centraliza os itens filhos no eixo  transversal(vertical no flex-row)
+Alinhamento         justify-center e between                       Centraliza no wixo principal e istribui os itens nos 2 extremos 
+                     
+                     
+Dimensoes           max-w-sm                                       Limita a largura máxima em 24rem (384px)
+                     
+                     
+Espaçamento         p-6, p-4 e pt-4                                Padding uniforme (1.5rem/1rem) ou apenas no topo(pt-4)
+Espacamento         px-3, py-1                                     Padding horizontal de 0.75rem e vertical de 0.25rem
+Espaçamento         mt-4, mt-2, mt-6                               Margem superior de 1rem, 0.5reme 1.5rem para espaçar elementos
+                     
+                     
+Tipografia          text-3xl, text-xl, text-xlm text-2xl           Escala do tamanho da fonte padronizada no Tailwind
+Tipografia          font-bold, font-semibold                       Pesos de fonte(700 e 600)
+Tipografia          leading-relaxed                                Aumenta a altura da linha (line-height: 1.625) para legibilidade
+
+Cores e Fundos      bg-slate-900, bg-slate-800, bg-sky-500         Cores de fundo usando a pela slate(cinza escura)
+*/

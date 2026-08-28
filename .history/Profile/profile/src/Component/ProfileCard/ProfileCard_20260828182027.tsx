@@ -1,0 +1,4 @@
+interface ProfileCardProps{
+    name : string;
+    
+}
