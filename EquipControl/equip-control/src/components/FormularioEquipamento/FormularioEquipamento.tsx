@@ -130,6 +130,7 @@ function FormularioEquipamento({adicionarEquipamento}: FormularioEquipamentoProp
 
         </section>
     );
+
 }
 
 export default FormularioEquipamento;

@@ -2,11 +2,16 @@ import './App.css';
 import Header from './components/Header/Header';
 import Resumo from './components/Resumo/Resumo';
 import FormularioEquipamento from './components/FormularioEquipamento/FormularioEquipamento';
+import type { Equipamento } from './types/Equipamento';
+import { useState } from 'react';
+import ListaEquipamentos from './components/ListaEquipamentos/ListaEquipamentos';
 
 function App() {
 
-  function adicionarEquipamento(equipamento: any) {
-        console.log(equipamento);
+  const [equipamentos, setEquipamento] = useState<Equipamento[]>([]);
+
+  function adicionarEquipamento(equipamento: Equipamento) {
+        setEquipamento([...equipamentos, equipamento]);
     }
 
   return(
@@ -27,6 +32,9 @@ function App() {
           <FormularioEquipamento
                         adicionarEquipamento={adicionarEquipamento}
                     />
+
+          <ListaEquipamentos
+              equipamentos={equipamentos}/>
         </div>
       </main>
     </div>
